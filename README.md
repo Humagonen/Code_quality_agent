@@ -8,7 +8,7 @@ code-quality-agent/
 ├─ backend/
 │   ├─ main.py (FastAPI)
 │   ├─ llm/
-│   │   ├─ client.py      # Grok API calls
+│   │   ├─ client.py      # LLM API calls
 │   │   └─ prompt.py      # prompt template
 │   ├─ analysis/
 │   │   └─ quality.py     # scoring logic
