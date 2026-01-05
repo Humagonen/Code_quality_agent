@@ -1,0 +1,74 @@
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python build / packaging
+build/
+dist/
+*.egg-info/
+
+# =========================
+# FastAPI / backend
+# =========================
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.mypy_cache/
+
+# Logs
+*.log
+
+# =========================
+# Frontend (React or similar)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React / frontend builds
+frontend/build/
+frontend/dist/
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# JetBrains
+.idea/
+
+# =========================
+# Testing / Coverage
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# Temporary / backup files
+# =========================
+*.swp
+*.swo
+*~
